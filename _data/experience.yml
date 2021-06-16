@@ -1,19 +1,15 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: "WasmAndroid: A Cross-platform Runtime for Native Programming Languages on Android"
+  position: Elliott Wen, Gerald Weber, Suranga Nanayakkara
+  duration: 2021 ACM Languages, Compilers, Tools and Theory of Embedded Systems (LCTES)
+  summary: "Open-source hardware such as RISC-V has been gaining substantial momentum. Recently, they have begun to embrace Google's Android operating system to leverage its software ecosystem. Despite the encouraging progress, a challenging issue arises: a majority of Android applications are written in native languages and need to be recompiled to target new hardware platforms. Unfortunately, this recompilation process is not scalable because of the explosion of new hardware platforms. To address this issue, we present WasmAndroid, a high-performance cross-platform runtime for native programming languages on Android. WasmAndroid only requires developers to compile their source code to WebAssembly, an efficient and portable bytecode format that can be executed everywhere without additional reconfiguration. WasmAndroid can also trans-pile existing application binaries to WebAssembly when source code is not available. WebAssembly's language model is very different from C/C++ and this mismatch leads to many unique implementation challenges. In this paper, we provide workable solutions and conduct a preliminary system evaluation. We show that WasmAndroid provides acceptable performance to execute native applications in a cross-platform manner."
+
+- company: "BrowserVM: Running Unmodified Operating Systems and Applications in Browsers"
+  position: Elliott Wen, Jim Warren, Gerald Weber
+  duration: 2020 IEEE International Conference on Web Services (ICWS)
+  summary: Web browsers are becoming a de-facto universal computing platform. Recently, research communities are attempting to enhance browsers with the capacity to run applications written in general programming languages. Existing approaches mainly compile source codes to browsers' native instruction sets JavaScript or WebAssembly. However, they usually fall short in practice because browsers lack operating system abstractions (e.g., thread and filesystem) and many programs would require extensive modifications. This paper presents BroswerVM, a new approach to run unmodified and complete operating systems and applications inside browsers. BrowserVM is a WebAssembly-based virtual machine hypervisor. BrowserVM efficiently conducts processor emulation through dynamic binary translation. It also provides performant hardware emulation for hard disks, graphics cards and network adapters...
 
 # Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: "Wasmachine: Bring the Edge up to Speed with A WebAssembly OS"
+  position: Elliott Wen, Gerald Weber
+  duration: 2020 IEEE 13th International Conference on Cloud Computing (CLOUD)
+  summary: "WebAssembly is gaining wide adoption in browser-centric applications thanks to its high portability and security. More recently, researchers start exploring the potential of WebAssembly in non-web environments, particularly in IoT and Edge computing. A key challenge of WebAssembly is performance gap with native code: applications compiled to WebAssembly run slower by an average of 45% as reported by previous benchmark. The main causes of the slowdown are two-folded. Firstly, conventional WebAssembly runtimes translate WebAssembly instructions to native machine code using just-in-time compilers, which do not apply complex code optimization. Secondly, system calls from WebAssembly applications have to be proxy-ed by runtimes in order to reach operating systems, which incurs a significant performance overhead. To address these issues, we present Wasmachine, an OS aiming to efficiently and …"

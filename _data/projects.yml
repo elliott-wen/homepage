@@ -2,15 +2,21 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Kiwrious
+  role: Software Developer & Hardware Engineer
+  duration: 2020 &mdash; Present
+  url: "https://kiwrious.com"
+  description: "Kiwrious believes science is fun, creative and social. We help students experience this firsthand. The Kiwrious Science Experience consists of the Kiwrious Sensor Kit, the Kiwrious Inquiry Editor and the Kiwrious Teacher Resources. It empowers students to engage in scientific inquiries in and out of school."
+
+- project: BrowserVM.js
+  role: Co-Founder
+  duration: 2018 &mdash; Present
+  url: "https://github.com/elliott-wen/browservm.js"
+  description: "BrowserVM is an efficient X86-64 full-system emulator running in browsers. Browservm in the JIT mode can be decently fast. Our recent Dhrystone test shows that BrowserVM (internal experimental build) is solely 2.5 times slower than QEMU."
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: SwiftLaTeX
+  role: Co-Founder
+  duration: 2017 &mdash; Present
+  url: "https://www.swiftlatex.com/"
+  description: "SwiftLaTeX, a WYSIWYG WebAssembly client-side LaTeX Editor. All computation is done locally and files are stored in user-provided cloud storage. SwiftLaTeX provides a WYSIWYG viewer, allowing users to editing PDF output directly."
