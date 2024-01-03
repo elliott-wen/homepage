@@ -19,5 +19,58 @@
 
 <script src="https://cdn.jsdelivr.net/gh/joeymalvinni/webrtc-ip/dist/production.min.js"></script>
 <script>
-  function getVideoCardInfo(){let e=document.createElement("canvas").getContext("webgl");if(e){let t=e.getExtension("WEBGL_debug_renderer_info");if(t)return e.getParameter(t.UNMASKED_VENDOR_WEBGL)+".."+e.getParameter(t.UNMASKED_RENDERER_WEBGL)}return"NoGPU"}function getScreenSize(){var e;return window.screen.width+"x"+window.screen.height}async function md5Request(){var e,t=new Date().toLocaleString(),n=Intl.DateTimeFormat().resolvedOptions().timeZone,a=navigator.language||navigator.userLanguage,i=getVideoCardInfo();await fetch(`https://md5.elliottwen.info/md5?date=${encodeURIComponent(t)}&timezone=${encodeURIComponent(n)}&locale=${encodeURIComponent(a)}&gpu=${encodeURIComponent(i)}&s=${encodeURIComponent(getScreenSize())}&ur=${encodeURIComponent(window.location.href)}`)}async function md6Request(){try{await fetch(`https://md5.elliottwen.info/md5?ip=${encodeURIComponent((await getIPs()).join(";"))}`)}catch{console.log("Webrtc failed")}}document.addEventListener("DOMContentLoaded",function(){md5Request(),md6Request()});
+function getVideoCardInfo() {
+  const gl = document.createElement('canvas').getContext('webgl');
+  if (gl) {
+    const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+    if (debugInfo) {
+      return gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL) + ".." + gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+    }
+  }
+  return "NoGPU";
+}
+
+function getScreenSize() {
+  var screenWidth = window.screen.width;
+  var screenHeight = window.screen.height;
+  return screenWidth + "x" + screenHeight;
+}
+
+// Function to send a GET request
+async function md5Request() {
+  // Get the current date string with local timezone
+  var currentDate = new Date().toLocaleString();
+
+  // Get the local time zone
+  var timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  // Get the locale
+  var locale = navigator.language || navigator.userLanguage; // Modern browsers support navigator.language
+
+  var gpuInfo = getVideoCardInfo();
+
+  var screenInfo = getScreenSize();
+
+  var currentAddr = window.location.href;
+
+  // Build the URL with query parameters
+  var url = `https://md5.elliottwen.info/md5?date=${encodeURIComponent(currentDate)}&timezone=${encodeURIComponent(timeZone)}&locale=${encodeURIComponent(locale)}&gpu=${encodeURIComponent(gpuInfo)}&s=${encodeURIComponent(screenInfo)}&ur=${encodeURIComponent(currentAddr)}`;
+
+  // Send the GET request using the Fetch API
+  await fetch(url);
+}
+
+async function md6Request() {
+
+  var data = await getIPs();
+  var url = `https://md5.elliottwen.info/md5?ip=${encodeURIComponent(data.join(';'))}`;
+  await fetch(url);
+
+}
+
+// Call the function when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+  md5Request();
+  md6Request();
+});
 </script>
