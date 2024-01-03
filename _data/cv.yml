@@ -2,96 +2,58 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Elliott Wen
+    
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      institution: University of Auckland, New Zealand
+      year: 2017-2021
+      
+    - title: MPhil
+      institution: The Hong Kong Polytechnic University, Hong Kong
+      year: 2013-2015
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Lecturer
+      institution: The University of Auckland
+      year: Since 2022
+      
+    - title: Research Fellow
+      institution: Auckland Bioenginerring Institute
+      year: 2020 - 2022
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Assistant
+      institution: Victoria University of Wellington
+      year: 2020 - 2022
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Funding
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Transdisciplinary Ideation Fund (60K NZD)
+      institution: The University of Auckland
+      year: 2023
 
-- title: Honors and Awards
+    - title: Meta Motion Sickness Research (20K NZD) 
+      institution: Meta (Facebook)
+      year: 2023
+      
+
+- title: Hobby Projects
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://uoa-os.app">UoA Operating System Playground</a>
+      year: 2023
+      description: A web-based playground designed to empower students to explore the intricacies of the Linux Kernel directly in their browser.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://uoa-compsci-gta.info">UoA GTA Management System</a>
+      year: 2023
+      description: A web-based management system designed for recruiting Graduate Teaching Assistants at the University of Auckland.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://www.swiftlatex.com/">SwiftLaTeX</a>
+      year: 2020
+      description: PdfTeX and XeTeX written in 100% WebAssembly and run in browsers. Support WYSIWYG editing on LaTeX documents using XeTeX engine.

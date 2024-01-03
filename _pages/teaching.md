@@ -1,12 +1,17 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+In my teaching, I strive to empower students with fundamental computer science principles that are not only integral to their academic success but also have profound real-world applications. Through concise and engaging delivery, I aim to demystify complex concepts, fostering a solid understanding of algorithms, data structures, and problem-solving techniques. 
 
-Organize your courses by years, topics, or universities, however you like!
+
+I have been teaching the following courses during the academic years 2022-2024 at the University of Auckland:
+
+1. Operating System (COMPSCI 340, SOFTENG 350)
+2. Large-scale Software Development (COMPSCI 325, SOFTENG 325)
+3. Human-Computer Interaction (COMPSCI 345)
