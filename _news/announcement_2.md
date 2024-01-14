@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Keep Me Updated: An Empirical Study on Embedded Javascript Engines in Android Apps" has been accepted to MSR 2024.
+Our paper "Keep Me Updated: An Empirical Study on Embedded Javascript Engines in Android Apps" has been accepted in MSR 2024.
