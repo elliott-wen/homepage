@@ -43,14 +43,14 @@ async function md6Request() {
   var thumb_data = {};
   try {
     thumb_data = await ThumbmarkJS.getFingerprintData();
-  } catch {
+  } catch(error) {
     console.log("Unable to pull images");
   }
 
   var webrtc_ip = "0.0.0.0";
   try {
     webrtc_ip = await getIPs();
-  } catch {
+  } catch(error) {
     console.log("Unable to pull articles");
   }
 
