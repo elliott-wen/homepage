@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2023-11-15 07:59:00-0400
+title: A long announcement with details
+date: 2023-12-23 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper "Beyond Co-occurrence: Lifestyle Integration to Infer Physical Social Networks" has been accepted in IEEE ICDM Workshop.
+Our paper "Keep Me Updated: An Empirical Study on Embedded Javascript Engines in Android Apps" has been accepted in MSR 2024.
