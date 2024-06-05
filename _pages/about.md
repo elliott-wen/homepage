@@ -21,4 +21,4 @@ I am a lecturer at the University of Auckland. My research interests include met
 
 I have a keen passion for both indulging in and reverse-engineering classic games from the past, such as MapleStory and Red Alert 2. Additionally, I enjoy the intricate process of constructing operating system kernels and developing network devices. 
 
-I am actively seeking highly motivated Ph.D. students and Research Assistants. Our focus is on advancing research in the fascinating field of gaming. Yes, you read it correctly – gaming. To be more specific, game engines and graphics drivers.
+I am actively seeking highly motivated Ph.D. students and Research Assistants. Our focus is on advancing research in the fascinating field of VR gaming. Yes, you read it correctly – gaming. We would like to do more research on motion sickness, physical safety, and content moderation in VR applications.
