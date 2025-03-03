@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "KernelVM: Teaching Linux Kernel Programming through a Browser-Based Virtual Machine" was accepted in ACM SIGCSE TS 2025.
+Our paper "KernelVM: Teaching Linux Kernel Programming through a Browser-Based Virtual Machine" was accepted in ACM SIGCSE TS 2025. [Demo](https://os.elliottwen.info/assignment4)
